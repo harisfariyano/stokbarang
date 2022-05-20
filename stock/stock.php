@@ -59,7 +59,7 @@
       type="image/png" 
       href="../favicon.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Logistics</title>
+    <title>Stok Barang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -118,7 +118,7 @@
                         <ul class="metismenu" id="menu">
 							<li><a href="index.php"><span>Notes</span></a></li>
                             <li class="active">
-                                <a href="stock.php"><i class="ti-dashboard"></i><span>Stock Barang</span></a>
+                                <a href="stock.php"><i class="ti-dashboard"></i><span>Stok Barang</span></a>
                             </li>
 							<li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout"></i><span>Transaksi Data
@@ -153,7 +153,7 @@
                         </div>
                         <div class="search-box pull-left">
                             <form action="#">
-                                <h2>Hi, <?=$_SESSION['user'];?>!</h2>
+                                <h2>hay, <?=$_SESSION['user'];?>!</h2>
                             </form>
                         </div>
                     </div>
@@ -297,8 +297,8 @@
                                                             <input type="text" id="satuan" name="satuan" class="form-control" value="<?php echo $p['satuan'] ?>">
 
                                                             <!--label for="lokasi">Lokasi</label>
-                                                            <input type="text" id="lokasi" name="lokasi" class="form-control" value="<?php echo $p['lokasi'] ?>">
-                                                            <input type="hidden" name="idbrg" value="<?=$idb;?>"-->
+                                                            <input type="text" id="lokasi" name="lokasi" class="form-control" value="<?php echo $p['lokasi'] ?>"-->
+                                                            <input type="hidden" name="idbrg" value="<?=$idb;?>">
 
                                                             
                                                             </div>
@@ -411,9 +411,9 @@
 									<option value="Milimeter">Milimeter</option>
 									</select>
 								</div>
-								<!--div class="form-group">
-									<label>Lokasi</label>
-									<input name="lokasi" type="text" class="form-control" placeholder="Lokasi barang">
+								<div class="form-group">
+									<!--label>Lokasi</label>
+									<input name="lokasi" type="text" class="form-control" placeholder="Lokasi barang"-->
 								</div>
 
 							</div>
